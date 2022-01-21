@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	/* padding: 0; */
+	box-sizing: border-box;
+}
+
+.red {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	/* list-style-type: disc; */
+	opacity: 0.5;
+	/* display: none; */
+}
+
+.parent {
+	position: relative;
+	height: 200px;
+	width: 100%;
+}
+
+.child p {
+	line-height: 50px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+.blue {
+	position: absolute;
+	/* position: absolute; */
+	/* right: 50%;
+	top: 50%; */
+	z-index: 1;
+	height: 100px;
+	width: 50px;
+	background-color: blue;
+	/* transform: scale(0.5); */
+	/* transition: 2s; */
+}
+
+.blue:hover {
+	transform: scale(1.5);
+}
