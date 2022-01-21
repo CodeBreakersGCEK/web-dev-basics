@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	/* padding: 0; */
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -8,9 +8,9 @@
 	height: 100px;
 	width: 100px;
 	background-color: red;
-	/* list-style-type: disc; */
+	 list-style-type: disc; 
 	opacity: 0.5;
-	/* display: none; */
+	 display: none; 
 }
 
 .parent {
@@ -31,15 +31,15 @@ h1 {
 
 .blue {
 	position: absolute;
-	/* position: absolute; */
-	/* right: 50%;
-	top: 50%; */
+	 position: absolute; 
+	 right: 50%;
+	top: 50%; 
 	z-index: 1;
 	height: 100px;
 	width: 50px;
 	background-color: blue;
-	/* transform: scale(0.5); */
-	/* transition: 2s; */
+	 transform: scale(0.5); 
+	 transition: 2s; 
 }
 
 .blue:hover {
